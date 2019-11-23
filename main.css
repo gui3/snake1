@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+#back {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #edc;
+  font-family: monospace, sans-serif;
+  padding: 1em;
+}
+
+#main {
+  background: #fff;
+  padding: 1em;
+  box-shadow: 10px 10px 15px #cba;
+  border: 1px solid #cba;
+  border-radius: 0.5em;
+}
+
+blockquote {
+  font-style: italic;
+  font-weight: 200;
+  color: #444;
+}
+
+#tools {
+  display: flex;
+  justify-content: space-around;
+  background: #fed;
+  padding: 0.3em;
+}
+
+#tools button {
+  background: none;
+  color: #e92;
+  font-weight: bold;
+  border: 3px solid #e92;
+  border-radius: 0.8em 0.2em;
+  padding: 0.3em 0.8em;
+  outline: none !important;
+}
+#tools button:hover {
+  background: #840;
+  box-shadow: 3px 3px 5px #950;
+}
+#tools button:active {
+  box-shadow: inset 3px 3px 5px #950;
+}
+
+
+#gameCanvas {
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+}
+#score {
+  text-align: center;
+  font-size: 3em;
+  font-family: 'Antic Slab', serif;
+}
